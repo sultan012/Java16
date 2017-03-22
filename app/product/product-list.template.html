@@ -1,0 +1,46 @@
+    <div class="row">
+    <div class="col-md-11">
+       
+        
+        <div>
+    <input type="text"placeholder="Sök produkt" ng-model="search">
+     <select name="CategorySelect" ng-model="category" ng-options="category.name for category in categories">
+         <option value="">Select Category</option>
+    </select></div>
+
+        <table class="table table-hover table-striped table-condensed">
+            <thead>
+                <tr>
+             <th>Bild</th>
+              <th>Product Namn</th>
+              <th>Pris</th>
+              <th>Kategori</th>
+            </tr>
+            </thead>
+            <tbody>
+
+
+            <tr ng-repeat="product in products | filter : search | filter :{categoryId:category.id}"
+             ng-click="productClicked(product.id)">
+              <td><img ng-src="{{product.imageUrl}}"></td>
+              <td>{{ product.name}}</td>
+             
+              <td>{{ product.price }}kr</td>
+              <td>{{ product.categoryName }}</td>
+            </tr>
+            </tbody>
+          </table>
+          <ul class="hide-bullets" ng-repeat="product in products | filter : search | filter :{categoryId:category.id}"
+             ng-click="productClicked(product.id)">
+                    <li class="col-sm-3">
+                        <a class="thumbnail"  >
+                            <img ng-src="{{product.imageUrl}}">
+                            <p> {{ product.name}}</p>
+                            <p> {{ product.price}} kr</p>
+                            <td>{{ product.categoryName }}</td>
+                        </a>
+                    </li>
+          </ul>
+
+        </div>
+    </div>

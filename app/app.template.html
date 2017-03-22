@@ -1,0 +1,14 @@
+<div class="col-md-6 text-center background_yellow border">
+    <h1>Välkommen till Webbutik.</h1>
+    <p class="lead">En online kläd web butik.</p>
+    <br> <br> <br>
+   <ul class="hide-bullets" ng-repeat="product in products" ng-click="productClicked(product.id)">
+                    <li class="col-sm-3">
+                        <a class="thumbnail"  >
+                            <img src= {{product.imageUrl}}>
+                            <p> {{ product.name}}</p>
+                            <p> {{ product.price}} kr</p>
+                        </a>
+                    </li>
+          </ul>
+</div>

@@ -1,0 +1,27 @@
+<div class="col-md-12 text-center background_yellow border">
+
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>Bild</th>
+            <th>Product Namn</th>
+            <th>Antal</th>
+            <th>Pris</th>
+        </tr>
+        <tr ng-repeat="product in cartInfo ">
+            <td></td>
+            <img ng-src="{{product.productImage}}">
+            <td>{{product.productName}}</td>
+            <td>{{product.quantity }}</td>
+            <td>{{product.productPris }}</td>
+            <td></td>
+
+        </tr>
+    </table>
+
+    <div class="col-md-6" action="/products">
+        <button class="btn btn-danger"  ng-click="buy(product)">köpa nu</button>
+
+        <a class="btn btn-primary btn" href="/products">Handla mer</a>
+
+    </div>
+</div>

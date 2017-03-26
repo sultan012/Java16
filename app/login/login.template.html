@@ -13,6 +13,10 @@
         </div>
         <div class="form-actions">
             <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary" ng-click="doLogin(username, password)">Login</button>
+
+            <a class="btn btn-danger"  href="/new-user">
+                <span class="glyphicon glyphicon-user"></span>  Skapa Konto
+            </a>
             <a href="/" class="btn btn-link">Avbryt</a>
         </div>
     </form>

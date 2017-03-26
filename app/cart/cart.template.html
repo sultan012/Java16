@@ -8,18 +8,19 @@
             <th>Pris</th>
         </tr>
         <tr ng-repeat="product in cartInfo ">
-            <td></td>
-            <img ng-src="{{product.productImage}}">
+            <td><img ng-src="{{product.productImage}}"></td>
             <td>{{product.productName}}</td>
             <td>{{product.quantity }}</td>
             <td>{{product.productPris }}</td>
-            <td></td>
+
 
         </tr>
     </table>
 
     <div class="col-md-6" action="/products">
-        <button class="btn btn-danger"  ng-click="buy(product)">köpa nu</button>
+        <a class="btn btn-danger"  ng-click="buy(product)">
+            <span class="glyphicon glyphicon-shopping-cart "></span>  KÖP
+        </a>
 
         <a class="btn btn-primary btn" href="/products">Handla mer</a>
 

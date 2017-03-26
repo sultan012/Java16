@@ -3,7 +3,7 @@ angular.module("customer")
             // var customers = [];
             return {
                 createCustomer: function (customer) {
-                    return $http.post('http://nackbutik.azurewebsites.net/api/customer/', customer);
+                    return $http.post('http://nackbutik.azurewebsites.net/api/customer', customer);
                 },
                 getcustomers: function () {
                     return $http.get("http://nackbutik.azurewebsites.net/api/customer");

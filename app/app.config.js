@@ -25,6 +25,10 @@ angular.module("app")
                     templateUrl: "app/cart/cart.template.html",
                     controller: "cartController"
                 })
+                .when("/thanks", {
+                    templateUrl: "app/cart/thanks.template.html",
+                    controller: "cartController"
+                })
 
 
                 .otherwise("/");

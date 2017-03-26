@@ -35,6 +35,7 @@ angular.module("login")
             },
 
             getLoginValue: function() {
+                console.log(isLoggedIn);
                 return isLoggedIn;
             },
             getUserId: function() {

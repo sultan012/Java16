@@ -1,0 +1,1299 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. Med ensamrätt.
+
+C:\JAVA_Klientutveckling\sultan_webbutik>npm run start
+
+> sultan_webbutik@1.0.0 start C:\JAVA_Klientutveckling\sultan_webbutik
+> lite-server
+
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{ injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://172.20.201.76:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://172.20.201.76:3001
+ --------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+17.03.22 09:41:21 304 GET /index.html
+17.03.22 09:41:21 304 GET /style.css
+17.03.22 09:41:21 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:41:21 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:41:21 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:41:21 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:41:21 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:41:21 304 GET /app/app.module.js
+17.03.22 09:41:21 304 GET /app/app.config.js
+17.03.22 09:41:21 304 GET /app/app.service.js
+17.03.22 09:41:21 304 GET /app/app.controller.js
+17.03.22 09:41:21 304 GET /app/product/product.module.js
+17.03.22 09:41:21 304 GET /app/product/product.controller.js
+17.03.22 09:41:21 304 GET /app/product/product-list.controller.js
+17.03.22 09:41:21 304 GET /app/product/product.service.js
+17.03.22 09:41:21 304 GET /app/product/product.categoryservice.js
+17.03.22 09:41:21 304 GET /app/product/product-detail.controller.js
+17.03.22 09:41:21 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:41:21 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:41:21 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:41:21 304 GET /app/login/login.module.js
+17.03.22 09:41:21 304 GET /app/login/login.service.js
+17.03.22 09:41:21 304 GET /app/login/login.controller.js
+17.03.22 09:41:21 304 GET /app/cart/cart.module.js
+17.03.22 09:41:21 304 GET /app/cart/cart.service.js
+17.03.22 09:41:21 304 GET /app/cart/cart.controller.js
+17.03.22 09:41:21 200 GET /app/product/product-list.template.html
+17.03.22 09:41:21 200 GET /img/webbutik.png
+17.03.22 09:41:22 404 GET /favicon.ico
+[BS] Reloading Browsers...
+17.03.22 09:48:21 304 GET /index.html
+17.03.22 09:48:21 304 GET /style.css
+17.03.22 09:48:21 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:48:21 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:48:21 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:48:21 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:48:21 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:48:21 304 GET /app/app.module.js
+17.03.22 09:48:21 304 GET /app/app.config.js
+17.03.22 09:48:21 304 GET /app/app.service.js
+17.03.22 09:48:21 304 GET /app/app.controller.js
+17.03.22 09:48:21 304 GET /app/product/product.module.js
+17.03.22 09:48:21 304 GET /app/product/product.controller.js
+17.03.22 09:48:21 304 GET /app/product/product-list.controller.js
+17.03.22 09:48:21 304 GET /app/product/product.service.js
+17.03.22 09:48:21 304 GET /app/product/product.categoryservice.js
+17.03.22 09:48:21 304 GET /app/product/product-detail.controller.js
+17.03.22 09:48:21 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:48:22 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:48:22 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:48:22 304 GET /app/login/login.module.js
+17.03.22 09:48:22 304 GET /app/login/login.service.js
+17.03.22 09:48:22 304 GET /app/login/login.controller.js
+17.03.22 09:48:22 304 GET /app/cart/cart.module.js
+17.03.22 09:48:22 304 GET /app/cart/cart.service.js
+17.03.22 09:48:22 200 GET /app/cart/cart.controller.js
+17.03.22 09:48:22 304 GET /app/product/product-list.template.html
+17.03.22 09:48:22 304 GET /img/webbutik.png
+[BS] Reloading Browsers...
+17.03.22 09:50:19 304 GET /index.html
+17.03.22 09:50:19 304 GET /style.css
+17.03.22 09:50:20 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:50:20 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:50:20 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:50:20 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:50:20 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:50:20 304 GET /app/app.module.js
+17.03.22 09:50:20 304 GET /app/app.config.js
+17.03.22 09:50:20 304 GET /app/app.service.js
+17.03.22 09:50:20 304 GET /app/app.controller.js
+17.03.22 09:50:20 304 GET /app/product/product.module.js
+17.03.22 09:50:20 304 GET /app/product/product.controller.js
+17.03.22 09:50:20 304 GET /app/product/product-list.controller.js
+17.03.22 09:50:20 304 GET /app/product/product.service.js
+17.03.22 09:50:20 304 GET /app/product/product.categoryservice.js
+17.03.22 09:50:20 304 GET /app/product/product-detail.controller.js
+17.03.22 09:50:20 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:50:20 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:50:20 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:50:20 304 GET /app/login/login.module.js
+17.03.22 09:50:20 304 GET /app/login/login.service.js
+17.03.22 09:50:20 304 GET /app/login/login.controller.js
+17.03.22 09:50:20 304 GET /app/cart/cart.module.js
+17.03.22 09:50:20 304 GET /app/cart/cart.service.js
+17.03.22 09:50:20 304 GET /app/cart/cart.controller.js
+17.03.22 09:50:21 304 GET /app/product/product-list.template.html
+17.03.22 09:50:21 304 GET /img/webbutik.png
+17.03.22 09:50:27 200 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 09:50:27 200 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 09:50:27 304 GET /style.css
+17.03.22 09:50:27 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:50:27 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:50:27 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:50:27 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:50:27 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:50:27 304 GET /app/app.module.js
+17.03.22 09:50:27 304 GET /app/app.config.js
+17.03.22 09:50:27 304 GET /app/app.service.js
+17.03.22 09:50:27 304 GET /app/app.controller.js
+17.03.22 09:50:27 304 GET /app/product/product.module.js
+17.03.22 09:50:27 304 GET /app/product/product.controller.js
+17.03.22 09:50:27 304 GET /app/product/product-list.controller.js
+17.03.22 09:50:27 304 GET /app/product/product.service.js
+17.03.22 09:50:27 304 GET /app/product/product.categoryservice.js
+17.03.22 09:50:27 304 GET /app/product/product-detail.controller.js
+17.03.22 09:50:27 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:50:27 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:50:27 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:50:27 304 GET /app/login/login.module.js
+17.03.22 09:50:27 304 GET /app/login/login.service.js
+17.03.22 09:50:27 304 GET /app/login/login.controller.js
+17.03.22 09:50:27 304 GET /app/cart/cart.module.js
+17.03.22 09:50:27 304 GET /app/cart/cart.service.js
+17.03.22 09:50:27 304 GET /app/cart/cart.controller.js
+17.03.22 09:50:27 304 GET /app/product/product-detail.template.html
+17.03.22 09:50:27 304 GET /img/webbutik.png
+17.03.22 09:50:32 200 GET /app/cart/cart.template.html
+17.03.22 09:51:27 304 GET /style.css
+17.03.22 09:51:27 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 09:51:27 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 09:51:27 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+[BS] Reloading Browsers...
+17.03.22 09:52:40 200 GET /index.html
+17.03.22 09:52:40 304 GET /style.css
+17.03.22 09:52:41 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:52:41 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:52:41 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:52:41 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:52:41 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:52:41 304 GET /app/app.module.js
+17.03.22 09:52:41 304 GET /app/app.config.js
+17.03.22 09:52:41 304 GET /app/app.service.js
+17.03.22 09:52:41 304 GET /app/app.controller.js
+17.03.22 09:52:41 304 GET /app/product/product.module.js
+17.03.22 09:52:41 304 GET /app/product/product.controller.js
+17.03.22 09:52:41 304 GET /app/product/product-list.controller.js
+17.03.22 09:52:41 304 GET /app/product/product.service.js
+17.03.22 09:52:41 304 GET /app/product/product.categoryservice.js
+17.03.22 09:52:41 304 GET /app/product/product-detail.controller.js
+17.03.22 09:52:41 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:52:41 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:52:41 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:52:41 304 GET /app/login/login.module.js
+17.03.22 09:52:41 304 GET /app/login/login.service.js
+17.03.22 09:52:41 304 GET /app/login/login.controller.js
+17.03.22 09:52:41 304 GET /app/cart/cart.module.js
+17.03.22 09:52:41 304 GET /app/cart/cart.service.js
+17.03.22 09:52:41 304 GET /app/cart/cart.controller.js
+17.03.22 09:52:41 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 09:52:41 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 09:52:41 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 09:52:41 304 GET /img/webbutik.png
+17.03.22 09:52:41 200 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+17.03.22 09:53:18 304 GET /index.html
+17.03.22 09:53:18 304 GET /style.css
+17.03.22 09:53:18 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:53:18 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:53:18 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:53:18 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:53:18 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:53:18 304 GET /app/app.module.js
+17.03.22 09:53:18 304 GET /app/app.config.js
+17.03.22 09:53:18 304 GET /app/app.service.js
+17.03.22 09:53:18 304 GET /app/app.controller.js
+17.03.22 09:53:18 304 GET /app/product/product.module.js
+17.03.22 09:53:18 304 GET /app/product/product.controller.js
+17.03.22 09:53:18 304 GET /app/product/product-list.controller.js
+17.03.22 09:53:18 304 GET /app/product/product.service.js
+17.03.22 09:53:18 304 GET /app/product/product.categoryservice.js
+17.03.22 09:53:18 304 GET /app/product/product-detail.controller.js
+17.03.22 09:53:18 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:53:18 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:53:18 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:53:18 304 GET /app/login/login.module.js
+17.03.22 09:53:18 304 GET /app/login/login.service.js
+17.03.22 09:53:18 304 GET /app/login/login.controller.js
+17.03.22 09:53:18 304 GET /app/cart/cart.module.js
+17.03.22 09:53:18 304 GET /app/cart/cart.service.js
+17.03.22 09:53:19 200 GET /app/cart/cart.controller.js
+17.03.22 09:53:19 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 09:53:19 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 09:53:19 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 09:53:19 304 GET /app/cart/cart.template.html
+17.03.22 09:53:19 304 GET /img/webbutik.png
+17.03.22 09:53:26 304 GET /app/product/product-list.template.html
+17.03.22 09:53:27 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 09:54:36 304 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 09:54:36 304 GET /style.css
+17.03.22 09:54:36 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:54:36 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:54:36 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:54:36 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:54:36 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:54:36 304 GET /app/app.module.js
+17.03.22 09:54:36 304 GET /app/app.config.js
+17.03.22 09:54:36 304 GET /app/app.service.js
+17.03.22 09:54:36 304 GET /app/app.controller.js
+17.03.22 09:54:36 304 GET /app/product/product.module.js
+17.03.22 09:54:36 304 GET /app/product/product.controller.js
+17.03.22 09:54:37 304 GET /app/product/product-list.controller.js
+17.03.22 09:54:37 304 GET /app/product/product.service.js
+17.03.22 09:54:37 304 GET /app/product/product.categoryservice.js
+17.03.22 09:54:37 304 GET /app/product/product-detail.controller.js
+17.03.22 09:54:37 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:54:37 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:54:37 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:54:37 304 GET /app/login/login.module.js
+17.03.22 09:54:37 304 GET /app/login/login.service.js
+17.03.22 09:54:37 304 GET /app/login/login.controller.js
+17.03.22 09:54:37 304 GET /app/cart/cart.module.js
+17.03.22 09:54:37 304 GET /app/cart/cart.service.js
+17.03.22 09:54:37 200 GET /app/cart/cart.controller.js
+17.03.22 09:54:37 200 GET /app/cart/cart.template.html
+17.03.22 09:54:37 304 GET /img/webbutik.png
+17.03.22 09:54:41 304 GET /app/product/product-list.template.html
+17.03.22 09:54:42 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 09:55:28 304 GET /index.html
+17.03.22 09:55:28 304 GET /style.css
+17.03.22 09:55:28 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:55:28 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:55:28 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:55:28 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:55:28 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:55:29 304 GET /app/app.module.js
+17.03.22 09:55:29 304 GET /app/app.config.js
+17.03.22 09:55:29 304 GET /app/app.service.js
+17.03.22 09:55:29 304 GET /app/app.controller.js
+17.03.22 09:55:29 304 GET /app/product/product.module.js
+17.03.22 09:55:29 304 GET /app/product/product.controller.js
+17.03.22 09:55:29 304 GET /app/product/product-list.controller.js
+17.03.22 09:55:29 304 GET /app/product/product.service.js
+17.03.22 09:55:29 304 GET /app/product/product.categoryservice.js
+17.03.22 09:55:29 304 GET /app/product/product-detail.controller.js
+17.03.22 09:55:29 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:55:29 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:55:29 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:55:29 304 GET /app/login/login.module.js
+17.03.22 09:55:29 304 GET /app/login/login.service.js
+17.03.22 09:55:29 304 GET /app/login/login.controller.js
+17.03.22 09:55:29 304 GET /app/cart/cart.module.js
+17.03.22 09:55:29 304 GET /app/cart/cart.service.js
+17.03.22 09:55:29 304 GET /app/cart/cart.controller.js
+17.03.22 09:55:29 200 GET /app/cart/cart.template.html
+17.03.22 09:55:29 304 GET /img/webbutik.png
+17.03.22 09:55:30 304 GET /app/product/product-list.template.html
+17.03.22 09:55:31 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 09:56:22 304 GET /index.html
+17.03.22 09:56:22 304 GET /style.css
+17.03.22 09:56:22 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:56:22 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:56:22 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:56:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:56:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:56:22 304 GET /app/app.module.js
+17.03.22 09:56:22 304 GET /app/app.config.js
+17.03.22 09:56:22 304 GET /app/app.service.js
+17.03.22 09:56:22 304 GET /app/app.controller.js
+17.03.22 09:56:22 304 GET /app/product/product.module.js
+17.03.22 09:56:22 304 GET /app/product/product.controller.js
+17.03.22 09:56:22 304 GET /app/product/product-list.controller.js
+17.03.22 09:56:22 304 GET /app/product/product.service.js
+17.03.22 09:56:22 304 GET /app/product/product.categoryservice.js
+17.03.22 09:56:22 304 GET /app/product/product-detail.controller.js
+17.03.22 09:56:22 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:56:22 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:56:23 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:56:23 304 GET /app/login/login.module.js
+17.03.22 09:56:23 304 GET /app/login/login.service.js
+17.03.22 09:56:23 304 GET /app/login/login.controller.js
+17.03.22 09:56:23 304 GET /app/cart/cart.module.js
+17.03.22 09:56:23 304 GET /app/cart/cart.service.js
+17.03.22 09:56:23 304 GET /app/cart/cart.controller.js
+17.03.22 09:56:23 200 GET /app/cart/cart.template.html
+17.03.22 09:56:23 304 GET /img/webbutik.png
+17.03.22 09:56:24 304 GET /app/product/product-list.template.html
+17.03.22 09:56:25 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 09:58:22 304 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 09:58:22 304 GET /style.css
+17.03.22 09:58:22 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:58:22 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:58:22 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:58:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:58:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:58:22 304 GET /app/app.module.js
+17.03.22 09:58:22 304 GET /app/app.config.js
+17.03.22 09:58:22 304 GET /app/app.service.js
+17.03.22 09:58:22 304 GET /app/app.controller.js
+17.03.22 09:58:22 304 GET /app/product/product.module.js
+17.03.22 09:58:22 304 GET /app/product/product.controller.js
+17.03.22 09:58:22 304 GET /app/product/product-list.controller.js
+17.03.22 09:58:22 304 GET /app/product/product.service.js
+17.03.22 09:58:22 304 GET /app/product/product.categoryservice.js
+17.03.22 09:58:22 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:58:22 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:58:23 200 GET /app/product/product-detail.controller.js
+17.03.22 09:58:23 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:58:23 304 GET /app/login/login.module.js
+17.03.22 09:58:23 304 GET /app/login/login.service.js
+17.03.22 09:58:23 304 GET /app/login/login.controller.js
+17.03.22 09:58:23 304 GET /app/cart/cart.module.js
+17.03.22 09:58:23 304 GET /app/cart/cart.service.js
+17.03.22 09:58:23 304 GET /app/cart/cart.controller.js
+17.03.22 09:58:23 200 GET /app/cart/cart.template.html
+17.03.22 09:58:23 304 GET /img/webbutik.png
+[BS] Reloading Browsers...
+17.03.22 09:58:37 304 GET /index.html
+17.03.22 09:58:37 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:58:37 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:58:37 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:58:37 304 GET /style.css
+17.03.22 09:58:37 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:58:37 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:58:38 304 GET /app/app.module.js
+17.03.22 09:58:38 304 GET /app/app.config.js
+17.03.22 09:58:38 304 GET /app/app.service.js
+17.03.22 09:58:38 304 GET /app/app.controller.js
+17.03.22 09:58:38 304 GET /app/product/product.module.js
+17.03.22 09:58:38 304 GET /app/product/product.controller.js
+17.03.22 09:58:38 304 GET /app/product/product-list.controller.js
+17.03.22 09:58:38 304 GET /app/product/product.service.js
+17.03.22 09:58:38 304 GET /app/product/product.categoryservice.js
+17.03.22 09:58:38 304 GET /app/product/product-detail.controller.js
+17.03.22 09:58:38 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:58:38 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:58:38 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:58:38 304 GET /app/login/login.module.js
+17.03.22 09:58:38 304 GET /app/login/login.service.js
+17.03.22 09:58:38 304 GET /app/login/login.controller.js
+17.03.22 09:58:38 304 GET /app/cart/cart.module.js
+17.03.22 09:58:38 304 GET /app/cart/cart.service.js
+17.03.22 09:58:38 304 GET /app/cart/cart.controller.js
+17.03.22 09:58:38 200 GET /app/cart/cart.template.html
+17.03.22 09:58:38 304 GET /img/webbutik.png
+17.03.22 09:58:42 200 GET /app/create-new-user/newuser.template.html
+[BS] Reloading Browsers...
+17.03.22 09:58:42 200 GET /index.html
+17.03.22 09:58:42 304 GET /style.css
+17.03.22 09:58:42 304 GET /bower_components/angular/angular.min.js
+17.03.22 09:58:42 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 09:58:42 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 09:58:42 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 09:58:42 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 09:58:42 304 GET /app/app.module.js
+17.03.22 09:58:42 304 GET /app/app.config.js
+17.03.22 09:58:42 304 GET /app/app.service.js
+17.03.22 09:58:42 304 GET /app/app.controller.js
+17.03.22 09:58:42 304 GET /app/product/product.module.js
+17.03.22 09:58:42 304 GET /app/product/product.controller.js
+17.03.22 09:58:42 304 GET /app/product/product-list.controller.js
+17.03.22 09:58:42 304 GET /app/product/product.service.js
+17.03.22 09:58:42 304 GET /app/product/product.categoryservice.js
+17.03.22 09:58:42 304 GET /app/product/product-detail.controller.js
+17.03.22 09:58:42 304 GET /app/create-new-user/customer.module.js
+17.03.22 09:58:42 304 GET /app/create-new-user/customer.service.js
+17.03.22 09:58:42 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 09:58:42 304 GET /app/login/login.module.js
+17.03.22 09:58:42 304 GET /app/login/login.service.js
+17.03.22 09:58:42 304 GET /app/login/login.controller.js
+17.03.22 09:58:42 304 GET /app/cart/cart.module.js
+17.03.22 09:58:42 304 GET /app/cart/cart.service.js
+17.03.22 09:58:42 304 GET /app/cart/cart.controller.js
+17.03.22 09:58:42 304 GET /app/create-new-user/newuser.template.html
+17.03.22 09:58:42 304 GET /img/webbutik.png
+17.03.22 09:58:43 304 GET /app/product/product-list.template.html
+17.03.22 09:58:44 304 GET /app/product/product-detail.template.html
+17.03.22 09:58:49 304 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+17.03.22 10:00:35 304 GET /index.html
+17.03.22 10:00:35 304 GET /style.css
+17.03.22 10:00:35 304 GET /bower_components/angular/angular.min.js
+17.03.22 10:00:35 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 10:00:35 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 10:00:35 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 10:00:35 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 10:00:35 304 GET /app/app.module.js
+17.03.22 10:00:35 304 GET /app/app.config.js
+17.03.22 10:00:35 304 GET /app/app.service.js
+17.03.22 10:00:35 304 GET /app/app.controller.js
+17.03.22 10:00:35 304 GET /app/product/product.module.js
+17.03.22 10:00:36 304 GET /app/product/product.controller.js
+17.03.22 10:00:36 304 GET /app/product/product-list.controller.js
+17.03.22 10:00:36 304 GET /app/product/product.service.js
+17.03.22 10:00:36 304 GET /app/product/product.categoryservice.js
+17.03.22 10:00:36 304 GET /app/create-new-user/customer.module.js
+17.03.22 10:00:36 304 GET /app/create-new-user/customer.service.js
+17.03.22 10:00:36 200 GET /app/product/product-detail.controller.js
+17.03.22 10:00:36 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 10:00:36 304 GET /app/login/login.module.js
+17.03.22 10:00:36 304 GET /app/login/login.service.js
+17.03.22 10:00:36 304 GET /app/login/login.controller.js
+17.03.22 10:00:36 304 GET /app/cart/cart.module.js
+17.03.22 10:00:36 304 GET /app/cart/cart.service.js
+17.03.22 10:00:36 304 GET /app/cart/cart.controller.js
+17.03.22 10:00:36 304 GET /app/cart/cart.template.html
+17.03.22 10:00:36 304 GET /img/webbutik.png
+17.03.22 10:00:39 304 GET /app/product/product-list.template.html
+17.03.22 10:00:40 304 GET /app/product/product-detail.template.html
+17.03.22 11:28:46 200 GET /app/login/login.template.html
+[BS] Reloading Browsers...
+17.03.22 11:28:46 200 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 11:28:46 304 GET /style.css
+17.03.22 11:28:46 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:28:46 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:28:46 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:28:46 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:28:46 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:28:46 304 GET /app/app.module.js
+17.03.22 11:28:46 304 GET /app/app.config.js
+17.03.22 11:28:46 304 GET /app/app.service.js
+17.03.22 11:28:46 304 GET /app/app.controller.js
+17.03.22 11:28:46 304 GET /app/product/product.module.js
+17.03.22 11:28:46 304 GET /app/product/product.controller.js
+17.03.22 11:28:46 304 GET /app/product/product-list.controller.js
+17.03.22 11:28:46 304 GET /app/product/product.service.js
+17.03.22 11:28:46 304 GET /app/product/product.categoryservice.js
+17.03.22 11:28:46 304 GET /app/product/product-detail.controller.js
+17.03.22 11:28:46 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:28:46 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:28:46 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:28:46 304 GET /app/login/login.module.js
+17.03.22 11:28:46 304 GET /app/login/login.service.js
+17.03.22 11:28:46 304 GET /app/login/login.controller.js
+17.03.22 11:28:46 304 GET /app/cart/cart.module.js
+17.03.22 11:28:46 304 GET /app/cart/cart.service.js
+17.03.22 11:28:46 304 GET /app/cart/cart.controller.js
+17.03.22 11:28:47 304 GET /app/login/login.template.html
+17.03.22 11:28:47 304 GET /img/webbutik.png
+17.03.22 11:28:48 304 GET /app/product/product-list.template.html
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+17.03.22 11:30:37 304 GET /index.html
+17.03.22 11:30:37 200 GET /index.html
+17.03.22 11:30:38 304 GET /style.css
+17.03.22 11:30:38 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:30:38 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:30:38 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:30:38 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:30:38 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:30:38 304 GET /app/app.module.js
+17.03.22 11:30:38 304 GET /app/app.config.js
+17.03.22 11:30:38 304 GET /app/app.service.js
+17.03.22 11:30:38 304 GET /app/app.controller.js
+17.03.22 11:30:38 304 GET /app/product/product.module.js
+17.03.22 11:30:38 304 GET /app/product/product.controller.js
+17.03.22 11:30:38 304 GET /app/product/product-list.controller.js
+17.03.22 11:30:38 304 GET /app/product/product.service.js
+17.03.22 11:30:38 304 GET /app/product/product.categoryservice.js
+17.03.22 11:30:38 304 GET /app/product/product-detail.controller.js
+17.03.22 11:30:38 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:30:38 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:30:38 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:30:39 304 GET /app/login/login.module.js
+17.03.22 11:30:39 304 GET /app/login/login.service.js
+17.03.22 11:30:39 304 GET /app/cart/cart.module.js
+17.03.22 11:30:39 304 GET /app/cart/cart.service.js
+17.03.22 11:30:39 200 GET /app/login/login.controller.js
+17.03.22 11:30:39 304 GET /app/cart/cart.controller.js
+17.03.22 11:30:39 304 GET /app/product/product-list.template.html
+17.03.22 11:30:39 304 GET /img/webbutik.png
+17.03.22 11:30:39 304 GET /app/login/login.template.html
+[BS] Reloading Browsers...
+17.03.22 11:31:21 304 GET /index.html
+17.03.22 11:31:22 304 GET /style.css
+17.03.22 11:31:22 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:31:22 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:31:22 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:31:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:31:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:31:22 304 GET /app/app.module.js
+17.03.22 11:31:22 304 GET /app/app.config.js
+17.03.22 11:31:22 304 GET /app/app.controller.js
+17.03.22 11:31:22 304 GET /app/app.service.js
+17.03.22 11:31:22 304 GET /app/product/product.module.js
+17.03.22 11:31:22 304 GET /app/product/product.controller.js
+17.03.22 11:31:22 304 GET /app/product/product-list.controller.js
+17.03.22 11:31:22 304 GET /app/product/product.service.js
+17.03.22 11:31:22 304 GET /app/product/product.categoryservice.js
+17.03.22 11:31:22 304 GET /app/product/product-detail.controller.js
+17.03.22 11:31:22 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:31:22 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:31:22 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:31:22 304 GET /app/login/login.module.js
+17.03.22 11:31:22 304 GET /app/login/login.service.js
+17.03.22 11:31:22 304 GET /app/cart/cart.module.js
+17.03.22 11:31:22 304 GET /app/cart/cart.service.js
+17.03.22 11:31:22 200 GET /app/login/login.controller.js
+17.03.22 11:31:22 304 GET /app/cart/cart.controller.js
+17.03.22 11:31:22 304 GET /app/login/login.template.html
+17.03.22 11:31:22 304 GET /img/webbutik.png
+17.03.22 11:31:31 304 GET /app/product/product-list.template.html
+17.03.22 11:31:35 304 GET /style.css
+17.03.22 11:31:36 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:31:36 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:31:36 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:35:23 304 GET /app/create-new-user/newuser.template.html
+[BS] Reloading Browsers...
+17.03.22 11:38:15 304 GET /index.html
+17.03.22 11:38:16 304 GET /style.css
+17.03.22 11:38:16 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:38:16 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:38:16 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:38:16 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:38:16 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:38:16 304 GET /app/app.module.js
+17.03.22 11:38:16 304 GET /app/app.config.js
+17.03.22 11:38:16 304 GET /app/app.service.js
+17.03.22 11:38:16 304 GET /app/app.controller.js
+17.03.22 11:38:16 304 GET /app/product/product.module.js
+17.03.22 11:38:16 304 GET /app/product/product.controller.js
+17.03.22 11:38:17 304 GET /app/product/product-list.controller.js
+17.03.22 11:38:17 304 GET /app/product/product.service.js
+17.03.22 11:38:17 304 GET /app/product/product.categoryservice.js
+17.03.22 11:38:17 304 GET /app/product/product-detail.controller.js
+17.03.22 11:38:17 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:38:17 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:38:17 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:38:17 304 GET /app/login/login.module.js
+17.03.22 11:38:17 304 GET /app/login/login.controller.js
+17.03.22 11:38:17 304 GET /app/cart/cart.module.js
+17.03.22 11:38:17 304 GET /app/cart/cart.service.js
+17.03.22 11:38:17 200 GET /app/login/login.service.js
+17.03.22 11:38:17 304 GET /app/cart/cart.controller.js
+17.03.22 11:38:17 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:38:17 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:38:17 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:38:17 304 GET /app/product/product-list.template.html
+17.03.22 11:38:17 304 GET /img/webbutik.png
+17.03.22 11:41:36 304 GET /app/create-new-user/newuser.template.html
+17.03.22 11:42:00 304 GET /app/login/login.template.html
+17.03.22 11:42:25 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 11:46:04 304 GET /index.html
+17.03.22 11:46:05 304 GET /style.css
+17.03.22 11:46:05 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:46:05 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:46:05 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:46:05 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:46:05 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:46:06 304 GET /app/app.module.js
+17.03.22 11:46:06 304 GET /app/app.config.js
+17.03.22 11:46:06 304 GET /app/app.service.js
+17.03.22 11:46:06 304 GET /app/app.controller.js
+17.03.22 11:46:06 304 GET /app/product/product.module.js
+17.03.22 11:46:06 304 GET /app/product/product.controller.js
+17.03.22 11:46:06 304 GET /app/product/product-list.controller.js
+17.03.22 11:46:06 304 GET /app/product/product.service.js
+17.03.22 11:46:06 304 GET /app/product/product.categoryservice.js
+17.03.22 11:46:06 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:46:06 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:46:06 200 GET /app/product/product-detail.controller.js
+17.03.22 11:46:06 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:46:06 304 GET /app/login/login.module.js
+17.03.22 11:46:06 304 GET /app/login/login.service.js
+17.03.22 11:46:06 304 GET /app/login/login.controller.js
+17.03.22 11:46:06 304 GET /app/cart/cart.module.js
+17.03.22 11:46:07 304 GET /app/cart/cart.service.js
+17.03.22 11:46:07 304 GET /app/cart/cart.controller.js
+17.03.22 11:46:07 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:46:07 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:46:07 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:46:07 304 GET /app/product/product-detail.template.html
+17.03.22 11:46:07 304 GET /img/webbutik.png
+17.03.22 11:46:16 304 GET /app/login/login.template.html
+17.03.22 11:46:27 304 GET /app/product/product-list.template.html
+17.03.22 11:46:38 304 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+17.03.22 11:48:50 304 GET /index.html
+17.03.22 11:48:50 304 GET /style.css
+17.03.22 11:48:50 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:48:50 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:48:50 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:48:50 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:48:50 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:48:51 304 GET /app/app.module.js
+17.03.22 11:48:51 304 GET /app/app.config.js
+17.03.22 11:48:51 304 GET /app/app.service.js
+17.03.22 11:48:51 304 GET /app/app.controller.js
+17.03.22 11:48:51 304 GET /app/product/product.module.js
+17.03.22 11:48:51 304 GET /app/product/product.controller.js
+17.03.22 11:48:51 304 GET /app/product/product-list.controller.js
+17.03.22 11:48:51 304 GET /app/product/product.service.js
+17.03.22 11:48:51 304 GET /app/product/product.categoryservice.js
+17.03.22 11:48:51 304 GET /app/product/product-detail.controller.js
+17.03.22 11:48:51 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:48:51 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:48:51 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:48:51 304 GET /app/login/login.module.js
+17.03.22 11:48:51 304 GET /app/login/login.service.js
+17.03.22 11:48:51 304 GET /app/login/login.controller.js
+17.03.22 11:48:51 304 GET /app/cart/cart.module.js
+17.03.22 11:48:51 304 GET /app/cart/cart.service.js
+17.03.22 11:48:51 304 GET /app/cart/cart.controller.js
+17.03.22 11:48:51 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:48:52 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:48:52 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:48:52 200 GET /app/cart/cart.template.html
+17.03.22 11:48:52 304 GET /img/webbutik.png
+17.03.22 11:49:05 304 GET /app/product/product-list.template.html
+17.03.22 11:49:07 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 11:50:21 304 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 11:50:22 304 GET /style.css
+17.03.22 11:50:22 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:50:22 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:50:22 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:50:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:50:22 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:50:23 304 GET /app/app.module.js
+17.03.22 11:50:23 304 GET /app/app.config.js
+17.03.22 11:50:23 304 GET /app/app.service.js
+17.03.22 11:50:23 304 GET /app/app.controller.js
+17.03.22 11:50:23 304 GET /app/product/product.module.js
+17.03.22 11:50:23 304 GET /app/product/product.controller.js
+17.03.22 11:50:23 304 GET /app/product/product-list.controller.js
+17.03.22 11:50:23 304 GET /app/product/product.service.js
+17.03.22 11:50:23 304 GET /app/product/product.categoryservice.js
+17.03.22 11:50:23 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:50:23 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:50:24 200 GET /app/product/product-detail.controller.js
+17.03.22 11:50:24 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:50:24 304 GET /app/login/login.module.js
+17.03.22 11:50:24 304 GET /app/login/login.service.js
+17.03.22 11:50:24 304 GET /app/login/login.controller.js
+17.03.22 11:50:24 304 GET /app/cart/cart.module.js
+17.03.22 11:50:24 304 GET /app/cart/cart.service.js
+17.03.22 11:50:24 304 GET /app/cart/cart.controller.js
+17.03.22 11:50:24 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:50:24 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:50:24 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:50:24 304 GET /app/product/product-list.template.html
+17.03.22 11:50:24 304 GET /img/webbutik.png
+17.03.22 11:50:26 304 GET /app/product/product-detail.template.html
+17.03.22 11:50:30 200 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+17.03.22 11:52:44 304 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 11:52:45 200 GET /index.html
+17.03.22 11:52:46 304 GET /style.css
+17.03.22 11:52:46 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:52:46 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:52:46 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:52:46 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:52:46 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:52:46 304 GET /app/app.module.js
+17.03.22 11:52:46 304 GET /app/app.config.js
+17.03.22 11:52:46 304 GET /app/app.service.js
+17.03.22 11:52:46 304 GET /app/app.controller.js
+17.03.22 11:52:46 304 GET /app/product/product.module.js
+17.03.22 11:52:46 304 GET /app/product/product.controller.js
+17.03.22 11:52:46 304 GET /app/product/product-list.controller.js
+17.03.22 11:52:46 304 GET /app/product/product.service.js
+17.03.22 11:52:46 304 GET /app/product/product.categoryservice.js
+17.03.22 11:52:46 304 GET /app/product/product-detail.controller.js
+17.03.22 11:52:46 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:52:46 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:52:46 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:52:46 304 GET /app/login/login.module.js
+17.03.22 11:52:46 304 GET /app/login/login.service.js
+17.03.22 11:52:46 304 GET /app/login/login.controller.js
+17.03.22 11:52:46 304 GET /app/cart/cart.module.js
+17.03.22 11:52:46 304 GET /app/cart/cart.service.js
+17.03.22 11:52:46 304 GET /app/cart/cart.controller.js
+17.03.22 11:52:46 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:52:46 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:52:46 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:52:47 200 GET /app/cart/cart.template.html
+17.03.22 11:52:47 304 GET /img/webbutik.png
+17.03.22 11:52:48 304 GET /app/product/product-list.template.html
+17.03.22 11:52:49 200 GET /app/product/product-detail.template.html
+17.03.22 11:52:53 304 GET /index.html
+17.03.22 11:52:53 304 GET /style.css
+17.03.22 11:52:54 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:52:54 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:52:54 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:52:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:52:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:52:54 304 GET /app/app.module.js
+17.03.22 11:52:54 304 GET /app/app.config.js
+17.03.22 11:52:54 304 GET /app/app.service.js
+17.03.22 11:52:54 304 GET /app/app.controller.js
+17.03.22 11:52:54 304 GET /app/product/product.module.js
+17.03.22 11:52:54 304 GET /app/product/product.controller.js
+17.03.22 11:52:54 304 GET /app/product/product-list.controller.js
+17.03.22 11:52:54 304 GET /app/product/product.service.js
+17.03.22 11:52:54 304 GET /app/product/product.categoryservice.js
+17.03.22 11:52:54 304 GET /app/product/product-detail.controller.js
+17.03.22 11:52:54 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:52:54 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:52:54 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:52:54 304 GET /app/login/login.module.js
+17.03.22 11:52:54 304 GET /app/login/login.service.js
+17.03.22 11:52:54 304 GET /app/login/login.controller.js
+17.03.22 11:52:54 304 GET /app/cart/cart.module.js
+17.03.22 11:52:54 304 GET /app/cart/cart.service.js
+17.03.22 11:52:54 304 GET /app/cart/cart.controller.js
+17.03.22 11:52:54 304 GET /app/product/product-detail.template.html
+17.03.22 11:52:54 304 GET /img/webbutik.png
+17.03.22 11:52:54 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:52:54 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:52:54 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:53:01 304 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+17.03.22 11:53:54 304 GET /index.html
+17.03.22 11:53:54 304 GET /style.css
+17.03.22 11:53:54 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:53:54 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:53:54 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:53:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:53:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:53:55 304 GET /app/app.module.js
+17.03.22 11:53:55 304 GET /app/app.config.js
+17.03.22 11:53:55 304 GET /app/app.service.js
+17.03.22 11:53:55 304 GET /app/app.controller.js
+17.03.22 11:53:55 304 GET /app/product/product.module.js
+17.03.22 11:53:55 304 GET /app/product/product.controller.js
+17.03.22 11:53:55 304 GET /app/product/product-list.controller.js
+17.03.22 11:53:55 304 GET /app/product/product.service.js
+17.03.22 11:53:55 304 GET /app/product/product.categoryservice.js
+17.03.22 11:53:55 304 GET /app/product/product-detail.controller.js
+17.03.22 11:53:55 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:53:55 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:53:56 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:53:56 304 GET /app/login/login.module.js
+17.03.22 11:53:56 304 GET /app/login/login.service.js
+17.03.22 11:53:56 304 GET /app/login/login.controller.js
+17.03.22 11:53:56 304 GET /app/cart/cart.module.js
+17.03.22 11:53:56 304 GET /app/cart/cart.service.js
+17.03.22 11:53:56 304 GET /app/cart/cart.controller.js
+17.03.22 11:53:56 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:53:56 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:53:56 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:53:56 304 GET /app/cart/cart.template.html
+17.03.22 11:53:56 304 GET /img/webbutik.png
+17.03.22 11:54:02 304 GET /app/product/product-list.template.html
+17.03.22 11:54:03 200 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 11:55:08 304 GET /index.html
+17.03.22 11:55:09 304 GET /style.css
+17.03.22 11:55:09 304 GET /bower_components/angular/angular.min.js
+17.03.22 11:55:09 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 11:55:09 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 11:55:09 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 11:55:09 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 11:55:09 304 GET /app/app.module.js
+17.03.22 11:55:09 304 GET /app/app.config.js
+17.03.22 11:55:09 304 GET /app/app.service.js
+17.03.22 11:55:09 304 GET /app/app.controller.js
+17.03.22 11:55:09 304 GET /app/product/product.module.js
+17.03.22 11:55:09 304 GET /app/product/product.controller.js
+17.03.22 11:55:10 304 GET /app/product/product-list.controller.js
+17.03.22 11:55:10 304 GET /app/product/product.service.js
+17.03.22 11:55:10 304 GET /app/product/product.categoryservice.js
+17.03.22 11:55:10 304 GET /app/product/product-detail.controller.js
+17.03.22 11:55:10 304 GET /app/create-new-user/customer.module.js
+17.03.22 11:55:10 304 GET /app/create-new-user/customer.service.js
+17.03.22 11:55:10 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 11:55:10 304 GET /app/login/login.module.js
+17.03.22 11:55:10 304 GET /app/login/login.controller.js
+17.03.22 11:55:10 304 GET /app/cart/cart.module.js
+17.03.22 11:55:10 304 GET /app/cart/cart.service.js
+17.03.22 11:55:10 200 GET /app/login/login.service.js
+17.03.22 11:55:10 304 GET /app/cart/cart.controller.js
+17.03.22 11:55:10 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 11:55:10 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 11:55:10 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 11:55:10 304 GET /app/cart/cart.template.html
+17.03.22 11:55:10 304 GET /img/webbutik.png
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+17.03.22 12:06:44 304 GET /index.html
+17.03.22 12:06:44 200 GET /index.html
+17.03.22 12:06:45 304 GET /style.css
+17.03.22 12:06:45 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:06:45 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:06:45 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:06:45 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:06:45 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:06:45 304 GET /app/app.module.js
+17.03.22 12:06:45 304 GET /app/app.config.js
+17.03.22 12:06:45 304 GET /app/app.service.js
+17.03.22 12:06:45 304 GET /app/app.controller.js
+17.03.22 12:06:45 304 GET /app/product/product.module.js
+17.03.22 12:06:45 304 GET /app/product/product.controller.js
+17.03.22 12:06:46 304 GET /app/product/product-list.controller.js
+17.03.22 12:06:46 304 GET /app/product/product.service.js
+17.03.22 12:06:46 304 GET /app/product/product.categoryservice.js
+17.03.22 12:06:46 304 GET /app/product/product-detail.controller.js
+17.03.22 12:06:46 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:06:46 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:06:46 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:06:46 304 GET /app/login/login.module.js
+17.03.22 12:06:46 304 GET /app/login/login.controller.js
+17.03.22 12:06:46 304 GET /app/cart/cart.module.js
+17.03.22 12:06:46 304 GET /app/cart/cart.service.js
+17.03.22 12:06:46 200 GET /app/login/login.service.js
+17.03.22 12:06:46 304 GET /app/cart/cart.controller.js
+17.03.22 12:06:46 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:06:46 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:06:46 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:06:46 304 GET /app/cart/cart.template.html
+17.03.22 12:06:46 304 GET /img/webbutik.png
+17.03.22 12:07:03 304 GET /app/login/login.template.html
+17.03.22 12:07:13 304 GET /app/product/product-list.template.html
+17.03.22 12:07:16 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 12:13:48 304 GET /index.html
+17.03.22 12:13:50 304 GET /style.css
+17.03.22 12:13:50 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:13:50 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:13:50 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:13:50 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:13:50 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:13:50 304 GET /app/app.module.js
+17.03.22 12:13:50 304 GET /app/app.config.js
+17.03.22 12:13:50 304 GET /app/app.service.js
+17.03.22 12:13:50 304 GET /app/app.controller.js
+17.03.22 12:13:50 304 GET /app/product/product.module.js
+17.03.22 12:13:50 304 GET /app/product/product.controller.js
+17.03.22 12:13:50 304 GET /app/product/product-list.controller.js
+17.03.22 12:13:50 304 GET /app/product/product.service.js
+17.03.22 12:13:50 304 GET /app/product/product.categoryservice.js
+17.03.22 12:13:50 304 GET /app/product/product-detail.controller.js
+17.03.22 12:13:50 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:13:50 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:13:50 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:13:50 304 GET /app/login/login.module.js
+17.03.22 12:13:50 304 GET /app/login/login.service.js
+17.03.22 12:13:50 304 GET /app/login/login.controller.js
+17.03.22 12:13:50 304 GET /app/cart/cart.module.js
+17.03.22 12:13:50 304 GET /app/cart/cart.service.js
+17.03.22 12:13:50 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:13:50 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:13:50 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:13:50 200 GET /app/cart/cart.controller.js
+17.03.22 12:13:50 304 GET /app/login/login.template.html
+17.03.22 12:13:50 304 GET /img/webbutik.png
+[BS] Reloading Browsers...
+17.03.22 12:27:10 304 GET /index.html
+17.03.22 12:27:11 304 GET /style.css
+17.03.22 12:27:11 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:27:11 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:27:11 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:27:11 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:27:11 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:27:11 304 GET /app/app.config.js
+17.03.22 12:27:11 304 GET /app/app.module.js
+17.03.22 12:27:11 304 GET /app/app.service.js
+17.03.22 12:27:11 304 GET /app/app.controller.js
+17.03.22 12:27:11 304 GET /app/product/product.module.js
+17.03.22 12:27:11 304 GET /app/product/product.controller.js
+17.03.22 12:27:12 304 GET /app/product/product-list.controller.js
+17.03.22 12:27:12 304 GET /app/product/product.service.js
+17.03.22 12:27:12 304 GET /app/product/product.categoryservice.js
+17.03.22 12:27:12 304 GET /app/product/product-detail.controller.js
+17.03.22 12:27:12 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:27:12 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:27:12 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:27:12 304 GET /app/login/login.module.js
+17.03.22 12:27:12 304 GET /app/login/login.service.js
+17.03.22 12:27:12 304 GET /app/login/login.controller.js
+17.03.22 12:27:12 304 GET /app/cart/cart.module.js
+17.03.22 12:27:12 304 GET /app/cart/cart.service.js
+17.03.22 12:27:12 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:27:12 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:27:12 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:27:12 200 GET /app/cart/cart.controller.js
+17.03.22 12:27:13 304 GET /app/login/login.template.html
+17.03.22 12:27:13 304 GET /img/webbutik.png
+17.03.22 12:27:28 304 GET /app/product/product-list.template.html
+17.03.22 12:27:29 304 GET /app/product/product-detail.template.html
+17.03.22 12:27:35 304 GET /app/cart/cart.template.html
+[BS] Reloading Browsers...
+17.03.22 12:33:19 304 GET /index.html
+17.03.22 12:33:20 304 GET /style.css
+17.03.22 12:33:20 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:33:20 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:33:20 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:33:20 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:33:20 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:33:21 304 GET /app/app.module.js
+17.03.22 12:33:21 304 GET /app/app.config.js
+17.03.22 12:33:21 304 GET /app/app.service.js
+17.03.22 12:33:21 304 GET /app/app.controller.js
+17.03.22 12:33:21 304 GET /app/product/product.module.js
+17.03.22 12:33:21 304 GET /app/product/product.controller.js
+17.03.22 12:33:21 304 GET /app/product/product-list.controller.js
+17.03.22 12:33:21 304 GET /app/product/product.service.js
+17.03.22 12:33:21 304 GET /app/product/product.categoryservice.js
+17.03.22 12:33:21 304 GET /app/product/product-detail.controller.js
+17.03.22 12:33:21 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:33:21 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:33:21 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:33:21 304 GET /app/login/login.module.js
+17.03.22 12:33:21 304 GET /app/login/login.service.js
+17.03.22 12:33:21 304 GET /app/login/login.controller.js
+17.03.22 12:33:21 304 GET /app/cart/cart.module.js
+17.03.22 12:33:21 304 GET /app/cart/cart.service.js
+17.03.22 12:33:21 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:33:21 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:33:21 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:33:21 200 GET /app/cart/cart.controller.js
+17.03.22 12:33:21 304 GET /app/cart/cart.template.html
+17.03.22 12:33:21 304 GET /img/webbutik.png
+17.03.22 12:33:44 304 GET /app/login/login.template.html
+17.03.22 12:33:59 304 GET /app/product/product-list.template.html
+17.03.22 12:34:02 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 12:35:29 304 GET /index.html
+17.03.22 12:35:30 304 GET /style.css
+17.03.22 12:35:30 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:35:30 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:35:30 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:35:30 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:35:30 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:35:30 304 GET /app/app.module.js
+17.03.22 12:35:30 304 GET /app/app.config.js
+17.03.22 12:35:30 304 GET /app/app.service.js
+17.03.22 12:35:30 304 GET /app/app.controller.js
+17.03.22 12:35:30 304 GET /app/product/product.module.js
+17.03.22 12:35:30 304 GET /app/product/product.controller.js
+17.03.22 12:35:31 304 GET /app/product/product-list.controller.js
+17.03.22 12:35:31 304 GET /app/product/product.service.js
+17.03.22 12:35:31 304 GET /app/product/product.categoryservice.js
+17.03.22 12:35:31 304 GET /app/product/product-detail.controller.js
+17.03.22 12:35:31 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:35:31 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:35:31 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:35:31 304 GET /app/login/login.module.js
+17.03.22 12:35:31 304 GET /app/login/login.service.js
+17.03.22 12:35:31 304 GET /app/login/login.controller.js
+17.03.22 12:35:31 304 GET /app/cart/cart.module.js
+17.03.22 12:35:31 304 GET /app/cart/cart.service.js
+17.03.22 12:35:31 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:35:31 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:35:31 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:35:31 200 GET /app/cart/cart.controller.js
+17.03.22 12:35:31 304 GET /app/cart/cart.template.html
+17.03.22 12:35:31 304 GET /img/webbutik.png
+17.03.22 12:35:32 304 GET /app/login/login.template.html
+17.03.22 12:35:41 304 GET /app/product/product-list.template.html
+17.03.22 12:35:43 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+17.03.22 12:37:53 304 GET /index.html
+17.03.22 12:37:54 200 GET /index.html
+[BS] Reloading Browsers...
+17.03.22 12:37:54 304 GET /style.css
+17.03.22 12:37:54 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:37:54 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:37:54 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:37:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:37:54 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:37:55 304 GET /app/app.module.js
+17.03.22 12:37:55 304 GET /app/app.config.js
+17.03.22 12:37:55 304 GET /app/app.service.js
+17.03.22 12:37:55 304 GET /app/app.controller.js
+17.03.22 12:37:55 304 GET /app/product/product.module.js
+17.03.22 12:37:55 304 GET /app/product/product.controller.js
+17.03.22 12:37:55 304 GET /app/product/product-list.controller.js
+17.03.22 12:37:55 304 GET /app/product/product.service.js
+17.03.22 12:37:55 304 GET /app/product/product.categoryservice.js
+17.03.22 12:37:55 304 GET /app/product/product-detail.controller.js
+17.03.22 12:37:55 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:37:55 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:37:55 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:37:55 304 GET /app/login/login.module.js
+17.03.22 12:37:55 304 GET /app/login/login.service.js
+17.03.22 12:37:55 304 GET /app/login/login.controller.js
+17.03.22 12:37:55 304 GET /app/cart/cart.module.js
+17.03.22 12:37:55 304 GET /app/cart/cart.service.js
+17.03.22 12:37:55 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:37:55 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:37:55 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:37:55 200 GET /app/cart/cart.controller.js
+17.03.22 12:37:56 304 GET /app/cart/cart.template.html
+17.03.22 12:37:56 304 GET /img/webbutik.png
+17.03.22 12:37:58 304 GET /app/login/login.template.html
+17.03.22 12:38:07 304 GET /app/product/product-list.template.html
+17.03.22 12:38:08 304 GET /app/product/product-detail.template.html
+[BS] Reloading Browsers...
+17.03.22 12:40:28 304 GET /index.html
+17.03.22 12:40:28 304 GET /style.css
+17.03.22 12:40:28 304 GET /bower_components/angular/angular.min.js
+17.03.22 12:40:28 304 GET /bower_components/angular-route/angular-route.min.js
+17.03.22 12:40:28 304 GET /bower_components/angular-animate/angular-animate.min.js
+17.03.22 12:40:28 304 GET /bower_components/angular-bootstrap/ui-bootstrap.min.js
+17.03.22 12:40:28 304 GET /bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+17.03.22 12:40:29 304 GET /app/app.module.js
+17.03.22 12:40:29 304 GET /app/app.config.js
+17.03.22 12:40:29 304 GET /app/app.service.js
+17.03.22 12:40:29 304 GET /app/app.controller.js
+17.03.22 12:40:29 304 GET /app/product/product.module.js
+17.03.22 12:40:29 304 GET /app/product/product.controller.js
+17.03.22 12:40:29 304 GET /app/product/product-list.controller.js
+17.03.22 12:40:29 304 GET /app/product/product.service.js
+17.03.22 12:40:29 304 GET /app/product/product.categoryservice.js
+17.03.22 12:40:29 304 GET /app/product/product-detail.controller.js
+17.03.22 12:40:29 304 GET /app/create-new-user/customer.module.js
+17.03.22 12:40:29 304 GET /app/create-new-user/customer.service.js
+17.03.22 12:40:30 304 GET /app/create-new-user/customer-create.controller.js
+17.03.22 12:40:30 304 GET /app/login/login.module.js
+17.03.22 12:40:30 304 GET /app/login/login.service.js
+17.03.22 12:40:30 304 GET /app/login/login.controller.js
+17.03.22 12:40:30 304 GET /app/cart/cart.module.js
+17.03.22 12:40:30 304 GET /app/cart/cart.service.js
+17.03.22 12:40:30 304 GET /bower_components/angular/angular.min.js.map
+17.03.22 12:40:30 304 GET /bower_components/angular-route/angular-route.min.js.map
+17.03.22 12:40:30 304 GET /bower_components/angular-animate/angular-animate.min.js.map
+17.03.22 12:40:30 200 GET /app/cart/cart.controller.js
+17.03.22 12:40:30 304 GET /app/cart/cart.template.html
+17.03.22 12:40:30 304 GET /img/webbutik.png
+17.03.22 12:40:32 304 GET /app/login/login.template.html
+17.03.22 12:40:40 304 GET /app/product/product-list.template.html
+17.03.22 12:40:41 304 GET /app/product/product-detail.template.html
+^CTerminate batch job (Y/N)? Terminate batch job (Y/N)? y
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\JAVA_Klientutveckling\sultan_webbutik>dir
+ Volume in drive C is Windows
+ Volume Serial Number is D2C4-D615
+
+ Directory of C:\JAVA_Klientutveckling\sultan_webbutik
+
+2017-03-21  14:33    <DIR>          .
+2017-03-21  14:33    <DIR>          ..
+2017-03-22  12:44    <DIR>          .idea
+2017-03-21  14:06    <DIR>          app
+2017-03-13  08:34               413 bower.json
+2017-03-13  08:29    <DIR>          bower_components
+2017-03-13  08:29    <DIR>          img
+2017-03-21  14:33             3 095 index.html
+2017-03-13  08:36    <DIR>          node_modules
+2017-03-13  10:36               194 package.json
+2017-03-21  14:30               620 style.css
+               4 File(s)          4 322 bytes
+               7 Dir(s)  116 237 099 008 bytes free
+
+C:\JAVA_Klientutveckling\sultan_webbutik>dir
+ Volume in drive C is Windows
+ Volume Serial Number is D2C4-D615
+
+ Directory of C:\JAVA_Klientutveckling\sultan_webbutik
+
+2017-03-22  12:57    <DIR>          .
+2017-03-22  12:57    <DIR>          ..
+2017-03-22  12:57                40 .gitignore
+2017-03-22  12:44    <DIR>          .idea
+2017-03-21  14:06    <DIR>          app
+2017-03-13  08:34               413 bower.json
+2017-03-13  08:29    <DIR>          bower_components
+2017-03-13  08:29    <DIR>          img
+2017-03-21  14:33             3 095 index.html
+2017-03-13  08:36    <DIR>          node_modules
+2017-03-13  10:36               194 package.json
+2017-03-21  14:30               620 style.css
+               5 File(s)          4 362 bytes
+               7 Dir(s)  116 235 792 384 bytes free
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git init
+Initialized empty Git repository in C:/JAVA_Klientutveckling/sultan_webbutik/.git/
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git add -A
+warning: LF will be replaced by CRLF in bower.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git commit -m "initial commit"
+[master (root-commit) 5c6ffd8] initial commit
+ 37 files changed, 744 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app/app.config.js
+ create mode 100644 app/app.controller.js
+ create mode 100644 app/app.module.js
+ create mode 100644 app/app.service.js
+ create mode 100644 app/app.template.html
+ create mode 100644 app/cart/cart.controller.js
+ create mode 100644 app/cart/cart.module.js
+ create mode 100644 app/cart/cart.service.js
+ create mode 100644 app/cart/cart.template.html
+ create mode 100644 app/create-new-user/customer-create.controller.js
+ create mode 100644 app/create-new-user/customer.module.js
+ create mode 100644 app/create-new-user/customer.service.js
+ create mode 100644 app/create-new-user/newuser.template.html
+ create mode 100644 app/login/login.controller.js
+ create mode 100644 app/login/login.module.js
+ create mode 100644 app/login/login.service.js
+ create mode 100644 app/login/login.template.html
+ create mode 100644 app/order/order-list.controller.js
+ create mode 100644 app/order/order-list.template.html
+ create mode 100644 app/order/order.controller.js
+ create mode 100644 app/order/order.module.js
+ create mode 100644 app/order/order.service.js
+ create mode 100644 app/product/product-detail.controller.js
+ create mode 100644 app/product/product-detail.template.html
+ create mode 100644 app/product/product-list.controller.js
+ create mode 100644 app/product/product-list.template.html
+ create mode 100644 app/product/product-list.template.txt
+ create mode 100644 app/product/product.categoryservice.js
+ create mode 100644 app/product/product.controller.js
+ create mode 100644 app/product/product.module.js
+ create mode 100644 app/product/product.service.js
+ create mode 100644 bower.json
+ create mode 100644 img/webbutik.png
+ create mode 100644 index.html
+ create mode 100644 package.json
+ create mode 100644 style.css
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git remote add azure https://a_asultan@sultan-webbutik.scm.azurewebsites.net:443/sultan-webbutik.git
+
+C:\JAVA_Klientutveckling\sultan_webbutik>git push azure master
+Counting objects: 45, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (45/45), 15.68 KiB | 0 bytes/s, done.
+Total 45 (delta 1), reused 0 (delta 0)
+remote: Updating branch 'master'.
+remote: Updating submodules.
+remote: Preparing deployment for commit id '5c6ffd87e2'.
+remote: Generating deployment script.
+remote: Generating deployment script for node.js Web Site
+remote: Generated deployment script files
+remote: Running deployment command...
+remote: Handling node.js deployment.
+remote: KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot'
+remote: Deleting file: 'hostingstart.html'
+remote: Copying file: '.gitignore'
+remote: Copying file: 'bower.json'
+remote: Copying file: 'index.html'
+remote: Copying file: 'package.json'
+remote: Copying file: 'style.css'
+remote: Copying file: 'app\app.config.js'
+remote: Copying file: 'app\app.controller.js'
+remote: Copying file: 'app\app.module.js'
+remote: Copying file: 'app\app.service.js'
+remote: Copying file: 'app\app.template.html'
+remote: Copying file: 'app\cart\cart.controller.js'
+remote: Copying file: 'app\cart\cart.module.js'
+remote: Copying file: 'app\cart\cart.service.js'
+remote: Copying file: 'app\cart\cart.template.html'
+remote: Copying file: 'app\create-new-user\customer-create.controller.js'
+remote: Copying file: 'app\create-new-user\customer.module.js'
+remote: Copying file: 'app\create-new-user\customer.service.js'
+remote: Copying file: 'app\create-new-user\newuser.template.html'
+remote: Copying file: 'app\login\login.controller.js'
+remote: Copying file: 'app\login\login.module.js'
+remote: Copying file: 'app\login\login.service.js'
+remote: Copying file: 'app\login\login.template.html'
+remote: Copying file: 'app\order\order-list.controller.js'
+remote: Copying file: 'app\order\order-list.template.html'
+remote: Copying file: 'app\order\order.controller.js'
+remote: Copying file: 'app\order\order.module.js'
+remote: Copying file: 'app\order\order.service.js'
+remote: Copying file: 'app\product\product-detail.controller.js'
+remote: Copying file: 'app\product\product-detail.template.html'
+remote: Copying file: 'app\product\product-list.controller.js'
+remote: Copying file: 'app\product\product-list.template.html'
+remote: Copying file: 'app\product\product-list.template.txt'
+remote: Copying file: 'app\product\product.categoryservice.js'
+remote: Copying file: 'app\product\product.controller.js'
+remote: Copying file: 'app\product\product.module.js'
+remote: Copying file: 'app\product\product.service.js'
+remote: Copying file: 'img\webbutik.png'
+remote: Invalid start-up command "lite-server" in package.json. Please use the format "node <script relative path>".
+remote: Looking for app.js/server.js under site root.
+remote: Missing server.js/app.js files, web.config is not generated
+remote: The package.json file does not specify node.js engine version constraints.
+remote: The node.js application will run with the default node.js version 6.9.1.
+remote: Selected npm version 3.10.8
+remote: .
+remote:
+remote: > sultan_webbutik@1.0.0 postinstall D:\home\site\wwwroot
+remote: > bower install
+remote:
+remote: ...
+remote: bower angular#^1.6.3        not-cached https://github.com/angular/bower-angular.git#^1.6.3
+remote: bower angular#^1.6.3           resolve https://github.com/angular/bower-angular.git#^1.6.3
+remote: bower angular-bootstrap#^2.5.0       not-cached https://github.com/angular-ui/bootstrap-bower.git#^2.5.0
+remote: bower angular-bootstrap#^2.5.0          resolve https://github.com/angular-ui/bootstrap-bower.git#^2.5.0
+remote: bower angular-route#^1.6.3           not-cached https://github.com/angular/bower-angular-route.git#^1.6.3
+remote: bower angular-route#^1.6.3              resolve https://github.com/angular/bower-angular-route.git#^1.6.3
+remote: bower angular-animate#^1.6.3         not-cached https://github.com/angular/bower-angular-animate.git#^1.6.3
+remote: bower angular-animate#^1.6.3            resolve https://github.com/angular/bower-angular-animate.git#^1.6.3
+remote: bower angular-bootstrap#^2.5.0         checkout 2.5.0
+remote: bower angular-route#^1.6.3             checkout v1.6.3
+remote: bower angular#^1.6.3                   checkout v1.6.3
+remote: bower angular-animate#^1.6.3           checkout v1.6.3
+remote: bower angular-bootstrap#^2.5.0         resolved https://github.com/angular-ui/bootstrap-bower.git#2.5.0
+remote: bower angular#>=1.4.0                not-cached https://github.com/angular/bower-angular.git#>=1.4.0
+remote: bower angular#>=1.4.0                   resolve https://github.com/angular/bower-angular.git#>=1.4.0
+remote: bower angular#>=1.4.0                  checkout v1.6.3
+remote: bower angular-route#^1.6.3             resolved https://github.com/angular/bower-angular-route.git#1.6.3
+remote: bower angular#^1.6.3                   resolved https://github.com/angular/bower-angular.git#1.6.3
+remote: bower angular-animate#^1.6.3           resolved https://github.com/angular/bower-angular-animate.git#1.6.3
+remote: bower angular#>=1.4.0                  resolved https://github.com/angular/bower-angular.git#1.6.3
+remote: bower angular-bootstrap#^2.5.0          install angular-bootstrap#2.5.0
+remote: bower angular-route#^1.6.3              install angular-route#1.6.3
+remote: bower angular#^1.6.3                    install angular#1.6.3
+remote: bower angular-animate#^1.6.3            install angular-animate#1.6.3
+remote:
+remote: angular-bootstrap#2.5.0 bower_components\angular-bootstrap
+remote: +-- angular#1.6.3
+remote: npm WARN sultan_webbutik@1.0.0 No description
+remote:
+remote: npm WARN sultan_webbutik@1.0.0 No repository field.
+remote: angular-route#1.6.3 bower_components\angular-route
+remote: +-- angular#1.6.3
+remote:
+remote: angular#1.6.3 bower_components\angular
+remote:
+remote: angular-animate#1.6.3 bower_components\angular-animate
+remote: +-- angular#1.6.3
+remote: Finished successfully.
+remote: Running post deployment command(s)...
+remote: Deployment successful.
+To https://sultan-webbutik.scm.azurewebsites.net:443/sultan-webbutik.git
+ * [new branch]      master -> master
+
+C:\JAVA_Klientutveckling\sultan_webbutik>

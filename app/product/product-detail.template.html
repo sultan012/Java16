@@ -9,7 +9,7 @@
                 <th>Bild</th>
                 <th>Beskrivning</th>
                 <th>Pris</th>
-                <th>Kategori</th>
+
             </thead>
             <tbody>
             <tr>
@@ -17,14 +17,16 @@
                 <td>{{ product.name }}</td>
                 <td>{{ product.description }}</td>
                 <td>{{ product.price }} kr</td>
-                <td>{{ product.categoryName }}</td>
+
             </tr>
             </tbody>
         </table>
     </div>
     <div class="col-md-3" action="/products">
         <input class="form-control" type="number" placeholder="Antal" min="1" ng-model="antal"><br>
-        <button class="btn btn-danger" ng-click="addToCart(product)" href="/products">Lägg till vagn</button>
+        <a class="btn btn-danger" ng-click="addToCart(product)">
+            <span class="glyphicon glyphicon-shopping-cart "></span>  Lägg till vagn
+        </a>
 
         <a class="btn btn-primary btn" href="/products">Avbryt</a>
 

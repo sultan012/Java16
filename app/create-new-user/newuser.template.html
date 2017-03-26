@@ -1,25 +1,30 @@
 <div class="col-md-6">
 
-    <h1>Welcome!</h1>
-    <h2>Create an account</h2>
+    <h1>Välkommen!</h1>
+    <h2>Skapa ett kundkonto</h2>
 
+    <form name="form" role="form">
     <label>First name: {{customer.firstName}}</label><br>
-    <input type="text" placeholder="First name..." ng-model="customer.firstName"><br><br>
+    <input type="text" placeholder="First name..." ng-model="customer.firstName" required><br><br>
     <label>Last name: {{customer.lastName}}</label><br>
-    <input type="text" placeholder="Last name..." ng-model="customer.lastName"><br><br>
+    <input type="text" placeholder="Last name..." ng-model="customer.lastName"required><br><br>
     <label>Email: {{customer.email}}</label><br>
-    <input type="email" placeholder="Email..." ng-model="customer.email"><br><br>
+    <input type="email" placeholder="Email..." ng-model="customer.email"required><br><br>
     <label>Password: {{customer.password}}</label><br>
-    <input type="password" placeholder="Password..." ng-model="customer.password"><br><br>
+    <input type="password" placeholder="Password..." ng-model="customer.password"required><br><br>
     <label>Phone: {{customer.phone}} </label><br>
-    <input type="text" placeholder="Phone..." ng-model="customer.phone"><br><br>
+    <input type="number" placeholder="Phone..." ng-model="customer.phone"required><br><br>
     <label>Address: {{customer.address}}</label><br>
-    <input type="text" placeholder="Address..." ng-model="customer.address"><br><br>
+    <input type="text" placeholder="Address..." ng-model="customer.address"required><br><br>
     <label>Postalcode: {{customer.postalCode}}</label><br>
-    <input type="text" placeholder="Postalcode..." ng-model="customer.postalCode"><br><br>
-    <label>City: {{customer.city}}</label><br>
-    <input type="text" placeholder="City..." ng-model="customer.city"><br><br>
+    <input type="number" placeholder="Postalcode..." ng-model="customer.postalCode"required><br><br>
+    <label class="control-label">City: {{customer.city}}</label><br>
+    <input type="text" class ="from-control" placeholder="City..." ng-model="customer.city"required><br><br>
+    </form>
 
-    <a class="btn btn-info" role="button" ng-click="createCustomer()">Save</a>
+
+
+    <a class="btn btn-info" ng-disabled="form.$invalid" role="button" ng-click="createCustomer()">Save</a>
+    <a href="/" class="btn btn-link">Avbryt</a>
 
 </div>

@@ -18,7 +18,7 @@ angular.module("customer")
 
 
                 };
-
+                console.log(newCustomer);
                 customerService.createCustomer(newCustomer).then(function () {
 
                     $location.path("/login");

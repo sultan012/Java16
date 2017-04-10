@@ -20,9 +20,10 @@
     <td>{{total}} kr</td>
 
     <div class="col-md-6" action="/products">
-        <a class="btn btn-danger"  ng-click="buy(product)">
+        <a class="btn btn-danger"  ng-disabled="cartInfo.length==0"  ng-click="buy(product)">
             <span class="glyphicon glyphicon-shopping-cart "></span>  KÖP
         </a>
+
 
         <a class="btn btn-primary btn" href="/products">Handla mer</a>
 

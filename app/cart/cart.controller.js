@@ -3,22 +3,22 @@ angular.module("cart")
         function($scope, $location, $routeParams, cartService,loginService){
 
                    $scope.cartInfo=  cartService.getCartProducts();
+                   $scope.isLoggedin=false;
+                   $scope.total = cartService.getTotaltCost();
+                   console.log(cartService.getTotaltCost());
+                   $scope.$watch(function () {
+                       return loginService.getLoginValue()},
+                       function (newValue, oldValue) {
+                       $scope.isLoggedin = newValue;
+                   });
 
                 $scope.buy = function () {
-                    var isLogIn = loginService.getLoginValue;
-                    console.log(isLogIn);
-                    console.log(!isLogIn);
-                    var isLogIn1 = !isLogIn;
-                    console.log(isLogIn1);
-                    console.log(!isLogIn1);
-                    console.log(!loginService.getLoginValue);
-                    console.log(loginService.getLoginValue);
-               /*    if (!isLogIn1) {
+
+                   if (!loginService.getLoginValue()) {
                         $location.path("/login");
-                    } else */{
+                    } else {
                         var orderProducts = [];
                         var userId = loginService.getUserId();
-
                         var products = cartService.getCartProducts();
 
                         console.log(products);
@@ -28,7 +28,7 @@ angular.module("cart")
 
                         }
 
-                        console.log(orderProducts)
+                        console.log(orderProducts);
                         var order = {
                             customerId: userId,
                             products: orderProducts
@@ -36,11 +36,11 @@ angular.module("cart")
 
                         console.log(order);
                             cartService.createOrder(order).then(function (response) {
+                                cartService.emptyCart();
                                 $location.path("/");
                                 console.log("Inloggad");
+                            });
 
-                            })
-                       // $scope.cartInfo=  null;
                     }
                 }
 

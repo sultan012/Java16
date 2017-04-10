@@ -9,6 +9,7 @@
                 <th>Bild</th>
                 <th>Beskrivning</th>
                 <th>Pris</th>
+                <th>Kvar i lager</th>
 
             </thead>
             <tbody>
@@ -16,19 +17,24 @@
                 <td><img ng-src="{{product.imageUrl}}"></td>
                 <td>{{ product.name }}</td>
                 <td>{{ product.description }}</td>
-                <td>{{ product.price }} kr</td>
+                <td>{{ product.price}} kr</td>
+                <td>{{ product.unitsInStock}}</td>
 
             </tr>
             </tbody>
         </table>
     </div>
     <div class="col-md-3" action="/products">
-        <input class="form-control" type="number" placeholder="Antal" min="1" ng-model="antal"><br>
-        <a class="btn btn-danger" ng-click="addToCart(product)">
-            <span class="glyphicon glyphicon-shopping-cart "></span>  Lägg till vagn
-        </a>
+        <form name="form">
+            <input class="form-control" type="number" placeholder="Antal" min="1" ng-model="antal" required><br>
+            <p ng-show="product.unitsInStock==0">Slut i lager</p>
+            <a class="btn btn-danger" ng-click="addToCart(product)"
+               ng-disabled="product.unitsInStock==0 || antal > product.unitsInStock || form.$invalid">
+                <span class="glyphicon glyphicon-shopping-cart "></span> Lägg till vagn
+            </a>
+            <a class="btn btn-primary btn" href="/products">Avbryt</a>
+        </form>
 
-        <a class="btn btn-primary btn" href="/products">Avbryt</a>
 
     </div>
 </div>

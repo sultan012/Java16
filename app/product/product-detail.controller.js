@@ -30,7 +30,6 @@ angular.module("product").controller("productDetailsController",
 
             $scope.addToCart = function (product) {
                // var cartProducts = [];
-                var antal = $scope.antal;
 
                 var cartProduct = {
                     productId: product.id,

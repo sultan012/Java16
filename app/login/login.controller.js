@@ -7,6 +7,4 @@ controller("loginController", ["$scope", "loginService","$location" ,function ($
         $location.path("/");
     };
 
-
-
 }]);

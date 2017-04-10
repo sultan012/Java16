@@ -30,6 +30,7 @@ angular.module("login")
                 console.log("test");
                 isLoggedIn = false;
                 user = null;
+
                 console.log(isLoggedIn);
 
             },

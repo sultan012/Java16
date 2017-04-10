@@ -1,26 +1,9 @@
 
 angular.module("product")
-    .controller("productController", ["$scope","$location", "productService","loginService","categoryService",
-        function ($scope, productService, categoryService) {
-
-            productService.getProducts().then(function (response) {
-                $scope.product = response.data;
-            });
-
-            categoryService.getCategory().then(function (response) {
-                $scope.category = response.data;
-            });
-
-        }]);
+    .controller("productController", ["$scope","$location",  "categoryService", "productService","loginService","cartService",
+        function ($scope, $location, categoryService,productService, loginService, cartService) {
 
 
-
-angular.module("product")
-    .controller("productController", ["$scope","$location",  "categoryService", "productService","loginService",
-        function ($scope, $location, categoryService,productService, loginService) {
-
-
-            var loggedIn;
 
             $scope.loggedIn = false;
 
@@ -37,8 +20,6 @@ angular.module("product")
 
 
 
-
-
             $scope.productSelected = function (product) {
                 $location.path("/product-detail/" + product.id);
             };
@@ -52,8 +33,8 @@ angular.module("product")
             $scope.logOut = function () {
                 console.log("test");
                 loginService.doLogOut();
+                cartService.emptyCart();
+
             }
-
-
 
         }]);

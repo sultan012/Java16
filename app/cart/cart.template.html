@@ -6,16 +6,18 @@
             <th>Product Namn</th>
             <th>Antal</th>
             <th>Pris</th>
+            <th>Totalt</th>
         </tr>
         <tr ng-repeat="product in cartInfo ">
-            <td><img ng-src="{{product.productImage}}"></td>
+            <td><img id ="cartImg" ng-src="{{product.productImage}}"></td>
             <td>{{product.productName}}</td>
             <td>{{product.quantity }}</td>
             <td>{{product.productPris }}</td>
-
-
+            <td>{{product.productPris*product.quantity}}</td>
         </tr>
     </table>
+    <td> Total orderpris: </td>
+    <td>{{total}} kr</td>
 
     <div class="col-md-6" action="/products">
         <a class="btn btn-danger"  ng-click="buy(product)">

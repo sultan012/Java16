@@ -25,6 +25,12 @@ a img {
     height: 200px;
 }
 
+
+#cartImg {
+    width: 65px;
+    height: 90px;
+}
+
 header {
     background-image: url("img/webbutik.png") ;
    

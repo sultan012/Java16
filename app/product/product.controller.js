@@ -25,10 +25,18 @@ angular.module("product")
             };
 
 
-            $scope.$watch(function() {return loginService.getLoginValue()},
+            $scope.$watch(function() {
+                return loginService.getLoginValue()},
+
                 function(newValue) {
+
                     $scope.loggedIn = newValue;
+                    $scope.text = newValue.firstName + " " + newValue.lastName;
+                    console.log(newValue);
+                    console.log($scope.text);
                 });
+
+
 
             $scope.logOut = function () {
                 console.log("test");

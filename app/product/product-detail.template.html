@@ -27,7 +27,7 @@
     <div class="col-md-3" action="/products">
         <form name="form">
             <input class="form-control" type="number" placeholder="Antal" min="1" ng-model="antal" required><br>
-            <p ng-show="product.unitsInStock==0">Slut i lager</p>
+            <p ng-show="product.unitsInStock==0" style="color:red">Tyvärr denna vara är slut i lager.</p>
             <a class="btn btn-danger" ng-click="addToCart(product)"
                ng-disabled="product.unitsInStock==0 || antal > product.unitsInStock || form.$invalid">
                 <span class="glyphicon glyphicon-shopping-cart "></span> Lägg till vagn

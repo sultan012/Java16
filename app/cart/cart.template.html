@@ -20,6 +20,7 @@
     <td>{{total}} kr</td>
 
     <div class="col-md-6" action="/products">
+        <p ng-show="cartInfo.length==0" style="color:red">Varukorg är tomt</p>
         <a class="btn btn-danger"  ng-disabled="cartInfo.length==0"  ng-click="buy(product)">
             <span class="glyphicon glyphicon-shopping-cart "></span>  KÖP
         </a>

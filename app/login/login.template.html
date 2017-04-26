@@ -11,6 +11,9 @@
             <input type="password" name="password" id="password" class="form-control" ng-model="password" required />
             <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Lösenord behövs</span>
         </div>
+        <br>
+        <p class="error" ng-show="failedLogin == true">Inloggningen misslyckades, kontrollera användarnamn och lösenord!</p>
+
         <div class="form-actions">
             <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary" ng-click="doLogin(username, password)">Login</button>
 

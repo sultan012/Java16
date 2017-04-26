@@ -19,8 +19,7 @@ angular.module("login")
                         isLoggedIn = true;
                         console.log(isLoggedIn);
                         console.log(user);
-
-                    }
+                    };
 
                 });
 

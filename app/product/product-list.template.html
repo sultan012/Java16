@@ -39,6 +39,7 @@
                             <p> {{ product.name}}</p>
                             <p> {{ product.price}} kr</p>
                             <td>{{ product.categoryName }}</td>
+                            <p ng-show="product.unitsInStock==0" style="color:red">OBS! Slut i lager</p>
                         </a>
                     </li>
           </ul>

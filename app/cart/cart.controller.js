@@ -37,7 +37,7 @@ angular.module("cart")
                         console.log(order);
                             cartService.createOrder(order).then(function (response) {
                                 cartService.emptyCart();
-                                $location.path("/");
+                                $location.path("/thanks");
                                 console.log("Inloggad");
                             });
 

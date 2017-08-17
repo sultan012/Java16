@@ -1,6 +1,2 @@
-Hej
-
-* Det skall visas om en produkt är slut i lager. (Fixat)
-* nu går det att lägga produkter som är slut i lager i kundvagnen. (Fixat)
 
 http://sultan-webbutik.azurewebsites.net/
